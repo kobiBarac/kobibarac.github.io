@@ -38,7 +38,11 @@
 						images: {
 							'images/quali_1.jpg': 'center',
 							'images/WPH_1.jpg': 'center',
-							'images/bg03.jpg': 'center'
+							'images/kellogg2.jpg': 'center',
+							'images/microsoft.png': 'center',
+							'images/biztec.jpg': 'center',
+							'images/eilat_6.jpg': 'center',
+							'images/trip.jpg': 'center',
 						},
 
 					// Delay.

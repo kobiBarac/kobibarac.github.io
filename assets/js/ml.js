@@ -4,7 +4,8 @@ const input = {
     responses: [
         'I live in Haifa, in Bat Galim where the beach is just 100 meter away. 🏖',
         "I hold a BSc. from the Technion and an MBA for Kellogg Business School.",
-        "My previous company was Quali.fit which I founded 4 years ago, before that I worked at Microsoft as a team leader."
+        "My previous company was Quali.fit which I founded 4 years ago, before that I worked at Microsoft as a team leader.",
+        "Full-Stack Web Developer: NodeJS, JS, HTML, CSS, Angular, React. DB: NoSQL (MongoDB), SQL (PostgreSQL, PostgreGIS)."
     ]
 };
 let spinner = document.getElementById("spinner");
