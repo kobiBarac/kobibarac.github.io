@@ -25,9 +25,9 @@ const input = {
         'I live in Haifa, in Bat Galim where the beach is just 100 meters away. 🏖',
         "Full-Stack Web Developer: NodeJS, JS, HTML, CSS, Angular, React. DB: NoSQL (MongoDB), SQL (PostgreSQL, PostgreGIS).",
         "<b>My employment history:</b><br/>" +
-        "<b>CTO & Co-Founder at Quali.fit</b>, a SaaS startup I founded 4.5 years ago. <br/>" +
-        "<b>Software Team Lead at Microsoft</b>, where I worked for 3 years since 2013, working on Excel integration to PowerBI.<br/>" +
-        "<b>Executive Director at BizTec</b>, while a student at the Technion I led BizTEC, The National Student Entrepreneurship Competition.<br/>" +
+        "4.5 years as the CTO & Co-Founder of Quali.fit.<br/>" +
+        "2013-2016 Software Team Lead at Microsoft.<br/>" +
+        "2012-2013 Executive Director at BizTec.<br/>" +
         "Before that I served as Naval Officer for 6.5 years.",
         "Quali.fit is a revolutionary SaaS startup that transforms recruiting firms, increases their productivity and client satisfaction by automating manual processes and providing exceptional candidate experience. Among its customers are some of the world’s leading recruiting firms.",
         "I hold a " +
