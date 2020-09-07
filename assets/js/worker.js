@@ -23,7 +23,9 @@ const input = {
     queries: [],
     responses: [
         'I live in Haifa, in Bat Galim where the beach is just 100 meters away. 🏖',
-        "Full-Stack Web Developer: NodeJS, JS, HTML, CSS, Angular, React. DB: NoSQL (MongoDB), SQL (PostgreSQL, PostgreGIS).",
+        "NodeJS, JS, HTML, CSS, Angular, React.",
+        "NoSQL (MongoDB), SQL (PostgreSQL, PostgreGIS).",
+        "Azure, GCP and AWS",
         "<b>My employment history:</b><br/>" +
         "4.5 years as the CTO & Co-Founder of Quali.fit.<br/>" +
         "2013-2016 Software Team Lead at Microsoft.<br/>" +
