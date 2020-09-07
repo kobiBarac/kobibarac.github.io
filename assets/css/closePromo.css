@@ -1,0 +1,42 @@
+
+@keyframes fade_promo {
+    0%   {color: rgba(255, 255, 255, 0.75);}
+    15%  {color: rgba(255, 255, 255, 0.65);}
+    30%  {color: rgba(255, 255, 255, 0.55);}
+    45%  {color: rgba(255, 255, 255, 0.45);}
+    60% {color: rgba(255, 255, 255, 0.35);}
+    75% {color: rgba(255, 255, 255, 0.25);}
+    90% {color: rgba(255, 255, 255, 0.15);}
+    100% {color: rgba(255, 255, 255, 0.05); display: none}
+}
+
+/*.fade_out_promo {*/
+/*    animation-name: fade_promo;*/
+/*    animation-duration: 2s;*/
+/*    !*animation-iteration-count: infinite;*!*/
+/*    animation-direction: normal;*/
+/*    animation-timing-function: ease-in-out;*/
+/*}*/
+.fade_out_promo {
+    -webkit-transition: opacity 1s ease-in-out,overflow 0s, height 0s;
+    -moz-transition: opacity 1s ease-in-out, overflow 0s,height 0s;
+    -ms-transition: opacity 1s ease-in-out, overflow 0s,height 0s;
+    -o-transition: opacity 1s ease-in-out, overflow 0s, height 0s;
+    opacity: 0;
+    height: 0px;
+    overflow:hidden ;
+}
+
+
+.fade_in_question_div {
+    -webkit-transition: opacity 2s ease-in-out;
+    -moz-transition: opacity 2s ease-in-out;
+    -ms-transition: opacity 2s ease-in-out;
+    -o-transition: opacity 2s ease-in-out;
+    opacity: 1;
+}
+
+.hide_before_animation {
+    opacity: 0;
+    height: 0px
+}

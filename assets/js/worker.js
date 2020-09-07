@@ -22,7 +22,7 @@ const input = {
     // queries: ['How are you feeling today?', 'What is captial of China?'],
     queries: [],
     responses: [
-        'I live in Haifa, in Bat Galim where the beach is just 100 meter away. 🏖',
+        'I live in Haifa, in Bat Galim where the beach is just 100 meters away. 🏖',
         "Full-Stack Web Developer: NodeJS, JS, HTML, CSS, Angular, React. DB: NoSQL (MongoDB), SQL (PostgreSQL, PostgreGIS).",
         "<b>My employment history:</b><br/>" +
         "<b>CTO & Co-Founder at Quali.fit</b>, a SaaS startup I founded 4.5 years ago. <br/>" +

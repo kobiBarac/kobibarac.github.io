@@ -9,15 +9,24 @@
   #question_box {
     width: 40%;
   }
+
+  #header {
+    top: -90px;
+    letter-spacing: 0.5em ;
+  }
 }
 @media screen and (max-width: 480px) {
   #question_box {
     width: 100%;
   }
+
+  #header {
+    top: -130px;
+    letter-spacing: 0.5em ;
+  }
 }
 
-header {
-  top: -130px;
+#header {
   letter-spacing: 0.5em ;
 }
 

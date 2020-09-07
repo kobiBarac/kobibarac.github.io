@@ -1,17 +1,18 @@
 <!DOCTYPE HTML>
 <html>
 <head profile="http://www.w3.org/2005/10/profile">
-	<link rel="icon"
-		  type="image/gif"
-		  href="/images/thunder.gif" />
-	<title>Kobi Barac</title>
+    <link rel="icon"
+          type="image/gif"
+          href="/images/thunder.gif"/>
+    <title>Kobi Barac</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-	<meta property="og:title" content="Kobi Barac" />
-	<meta property="og:image" content="images/og_profile_pic.jpeg" />
+    <meta property="og:title" content="Kobi Barac"/>
+    <meta property="og:image" content="images/og_profile_pic.jpeg"/>
 
     <link rel="stylesheet" href="assets/css/main.css"/>
     <link rel="stylesheet" href="assets/css/spinner.css"/>
+    <link rel="stylesheet" href="assets/css/closePromo.css"/>
 
 
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
@@ -20,36 +21,43 @@
 <body class="is-preload">
 
 
-<!-- Header -->
 <header id="header">
 
 
-    <h1 class="rainbow-text">Kobi Barac</h1>
-    <p>
-        Entrepreneurship | Technology | Leadership
-    </p>
-    <p>
-        Ask Me Anything (about me)
-    </p>
-    <div class="flex-container" flex="1">
-        <input type="text" id="question_box" placeholder=""/>
-        <div id="spinner" class="spinner">
-            <div class="ldio-h0swnh3hikh">
-                <div></div>
+    <div id="qustion_div" class="hide_before_animation">
+        <h1>Kobi Barac</h1>
+        <p>
+            Entrepreneurship | Technology | Leadership
+        </p>
+        <p>
+            Ask Me Anything (about me)
+        </p>
+        <div class="flex-container" flex="1">
+            <input type="text" id="question_box" placeholder=""/>
+            <div id="spinner" class="spinner">
+                <div class="ldio-h0swnh3hikh">
+                    <div></div>
+                </div>
             </div>
         </div>
+
+        <div>
+
+            <p id="answer" style="letter-spacing: 0.05em; height: 100px;">
+            </p>
+        </div>
     </div>
-
-
-    <div>
-
-        <p id="answer" style="letter-spacing: 0.05em; height: 100px;">
-        </p>
-    </div>
-
 </header>
+<div id="promo_div" style=" top: -10%">
+    <i class="fas fa-times" onclick="closePromo()"></i>
+    <p>
+        This is an experimental site I've built to demonstrate some of the latest advancements in Machine Learning (tfjs), Frontend development (Web workers), and stuff I always wanted to mess around with but never had an excuse (Animations and GitHub pages).
+    </p>
+    <p>
+        I've used a pre-trained Universal Sentence Encoder model, which tries to "guess" that best response to a query based on a list of predefined answers.
+    </p>
 
-<!-- Signup Form -->
+</div>
 
 
 <!-- Footer -->
@@ -66,14 +74,19 @@
     </ul>
     <ul class="copyright">
         </li>&copy; Kobi Barac 2020.</li>
-<!--        <li>Credits: <a href="http://html5up.net">HTML5 UP</a></li>-->
+        <!--        <li>Credits: <a href="http://html5up.net">HTML5 UP</a></li>-->
     </ul>
 </footer>
 
+<!--<script>-->
+<!--    var dialog = document.getElementById('window')-->
+<!--    dialog.show()-->
+<!--</script>-->
 <!-- Scripts -->
 <script src="assets/js/main.js"></script>
 <script src="assets/js/ml.js"></script>
 <script src="assets/js/placeholderAnimation.js"></script>
+<script src="assets/js/promo.js"></script>
 
 </body>
 </html>
